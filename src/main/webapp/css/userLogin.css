@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+  background-image: url('../images/OIP.jpg'); /* update path as per your folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 400px;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 120px auto;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 25px;
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.login-form .form-control {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn-danger:hover {
+  background-color: #e60000;
+}
+
+.home-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #ff4d4d;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #e60000;
+  color: white;
+}

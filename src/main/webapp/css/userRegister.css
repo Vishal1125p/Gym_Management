@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+  background-image: url('../images/OIP.jpg'); /* Update path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 450px;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 80px auto;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 25px;
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.register-form .form-control {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn-danger:hover {
+  background-color: #e60000;
+}
+
+.login-link {
+  text-decoration: none;
+  color: white;
+  background-color: #ff4d4d;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.login-link:hover {
+  background-color: #e60000;
+  color: white;
+}
